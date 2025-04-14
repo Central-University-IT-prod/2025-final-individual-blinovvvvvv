@@ -1,0 +1,117 @@
+import { Training } from '../types/training.types'
+
+export const mockTrainings: Training[] = [
+	{
+		name: 'Кардио',
+		id: '244534',
+		bg: 'pink-gradient',
+		exercises: [
+			{
+				id: '69349',
+				type: 'time',
+				complexity: 'medium',
+				categories: ['legs'],
+				name: 'Бег',
+				description: 'Бегаем',
+				equipment: ['treadmill'],
+				isCompleted: false,
+				time: 15 * 60,
+			},
+			{
+				id: '95683',
+				type: 'time',
+				complexity: 'medium',
+				categories: ['abs'],
+				name: 'Планка',
+				description:
+					'Обопрись на предплечья и носки, держи тело прямым, напрягая пресс.',
+				equipment: ['carpet'],
+				isCompleted: false,
+				time: 60,
+			},
+			{
+				id: '69349',
+				type: 'time',
+				complexity: 'medium',
+				categories: ['legs'],
+				name: 'Бег',
+				description: 'Бегаем',
+				equipment: ['treadmill'],
+				isCompleted: false,
+				time: 15 * 60,
+			},
+		],
+	},
+	{
+		name: 'Качаем ноги',
+		id: '344242',
+		bg: 'cyan-gradient',
+		exercises: [
+			{
+				id: '345345',
+				type: 'repeat',
+				complexity: 'easy',
+				categories: ['legs'],
+				name: 'Прыжки на месте',
+				description: 'Прыгай высоко, поднимая колени к груди.',
+				equipment: [],
+				isCompleted: false,
+				repeat: 30,
+			},
+			{
+				id: '45623',
+				type: 'repeat',
+				complexity: 'easy',
+				categories: ['legs'],
+				name: 'Выпады',
+				description:
+					'Шагни вперед одной ногой, опустившись до угла 90 градусов в коленях.',
+				equipment: [],
+				isCompleted: false,
+				repeat: 25,
+			},
+			{
+				id: '495693',
+				type: 'repeat',
+				complexity: 'easy',
+				categories: ['legs'],
+				name: 'Приседания',
+				description:
+					'Встань прямо, ноги на ширине плеч, опускайся до параллели бедер с полом.',
+				equipment: [],
+				isCompleted: false,
+				repeat: 20,
+			},
+		],
+	},
+	{
+		name: 'Качаем грудь',
+		id: '133523',
+		bg: 'purple-gradient',
+		exercises: [
+			{
+				id: '24346',
+				type: 'weight',
+				complexity: 'hard',
+				categories: ['chest'],
+				name: 'Жим лёжа',
+				description: 'Ложимся на скамью, берем штангу, делаем',
+				equipment: ['barbell'],
+				isCompleted: false,
+				weight: 25,
+			},
+			{
+				id: '45693',
+				type: 'repeat',
+				complexity: 'medium',
+				categories: ['chest'],
+				name: 'Отжимания',
+				description:
+					'Ляг на пол лицом вниз, поднимай тело, опираясь на руки и пальцы ног.',
+				equipment: [],
+				isCompleted: false,
+				repeat: 20,
+			},
+		],
+	},
+]
